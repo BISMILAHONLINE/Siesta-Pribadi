@@ -1,7 +1,7 @@
 // Owner number
-global.owner = '6288980870067'
+global.owner = '6283190747399'
 // Owner name
-global.owner_name = 'Swift Developer'
+global.owner_name = 'Faiz Creator'
 // Maximum upload file size limit (Default : 50 MB)
 global.max_upload = 50
 // Delay for spamming protection (Default : 3 seconds)
@@ -24,7 +24,7 @@ global.chatai_key = 'MKPsfkgXLZPGrWoH'
 // Source version
 global.version = '2.2.1',
 // Footer text
-global.footer = 'Siesta Beta Test'
+global.footer = 'Faiz Bot Kull'
 // Global status
 global.status = Object.freeze({
    wait: Func.texted('bold', 'Processed . . .'),
