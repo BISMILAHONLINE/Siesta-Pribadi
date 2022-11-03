@@ -7,7 +7,7 @@ exports.run = {
       isPrefix
    }) => {
       try {
-      let captions = `An automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : PostgreSQL\n◦ *Library* : Baileys v4.3.0\n◦ *My Web* : https://linktr.ee/kannachanv1\n◦ *Github* : https://github.com/XyzenzKannaV1\n\nIf you find an error or want to upgrade premium plan contact the owner.\n\n
+      let captions = `An automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : PostgreSQL\n◦ *Library* : Baileys v4.3.0\n◦ *My Web* : https://linktr.ee/FaizzKull\n◦ *Github* : https://github.com/XyzenzKannaV1\n\nIf you find an error or want to upgrade premium plan contact the owner.\n\n
 乂  *U S E R - I N F O*
       
 ◦  ${isPrefix}limit 
@@ -170,9 +170,9 @@ exports.run = {
 ◦  ${isPrefix}premium 
 ◦  ${isPrefix}runtime`
       client.sendMessageModify(m.chat, captions, m, {
-      	       title: 'Siesta - Multi Device',
+      	       title: 'Faiz Bot Kull',
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/3d20c23aafd4257325003.jpg'),
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bf659f0780a9a3cc9ef4d.jpg'),
                url: 'https://chat.whatsapp.com/KbgGdT1cV3rD5JzJDZryis'
             })
       } catch (e) {
