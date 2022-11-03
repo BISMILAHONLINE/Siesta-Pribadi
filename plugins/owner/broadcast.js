@@ -19,8 +19,8 @@ exports.run = {
             for (let jid of id) {
                await Func.delay(1500)
                await client.sendMessageModify(jid, text, null, {
-                  title: 'Broadcast Siesta - Multi Device',
-                  thumbnail: await Func.fetchBuffer('https://telegra.ph/file/42c98f6d0696730a84ce8.jpg'),
+                  title: 'Broadcast Siesta - Faiz Kull',
+                  thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bf659f0780a9a3cc9ef4d.jpg'),
                   largeThumb: true,
                   url: 'https://chat.whatsapp.com/KbgGdT1cV3rD5JzJDZryis',
                   mentionedJid: command == 'bcgc' ? await (await client.groupMetadata(jid)).participants.map(v => v.id) : []
