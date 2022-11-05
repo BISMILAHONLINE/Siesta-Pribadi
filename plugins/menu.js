@@ -170,10 +170,10 @@ exports.run = {
 ◦  ${isPrefix}premium 
 ◦  ${isPrefix}runtime`
       client.sendMessageModify(m.chat, captions, m, {
-      	       title: 'Faiz Bot Kull',
+      	       title: 'FazryyGoodly',
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/bf659f0780a9a3cc9ef4d.jpg'),
-               url: 'https://chat.whatsapp.com/KbgGdT1cV3rD5JzJDZryis'
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/1ced2b64986a4737717e9.jpg'),
+               url: 'https://chat.whatsapp.com/Lo0lKqYkGvV10Mz71Y4Jp8'
             })
       } catch (e) {
          client.reply(m.chat, Func.jsonFormat(e), m)
