@@ -172,7 +172,7 @@ exports.run = {
       client.sendMessageModify(m.chat, captions, m, {
       	       title: 'FazryyGoodly',
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/1ced2b64986a4737717e9.jpg'),
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/2be91e974f02948f59751.jpg'),
                url: 'https://chat.whatsapp.com/Lo0lKqYkGvV10Mz71Y4Jp8'
             })
       } catch (e) {
